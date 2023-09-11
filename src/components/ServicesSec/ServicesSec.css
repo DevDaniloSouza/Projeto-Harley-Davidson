@@ -1,0 +1,33 @@
+@import "../../styles/colors.css";
+
+.services-sec {
+    padding: 1.6rem;
+    font-size: 1.8rem;
+
+    background-color: var(--black);
+
+    color: rgb(241, 241, 241);
+}
+
+.services-sec > h1 {
+    margin: 1rem 0 1rem 0;
+}
+
+.services-sec > h1::after {
+    width: 1.8rem;
+    height: .3rem;
+    margin: 0 0 0 .5rem;
+    content: "";
+    position: absolute;
+    translate: 0 2.3rem;
+    
+    background-color: var(--orange);
+}
+
+.services-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 2rem 0;
+}

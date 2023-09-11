@@ -1,0 +1,93 @@
+@import "../../styles/colors.css";
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background-color: var(--Black);
+    font-weight: 300;
+    color: var(--white);
+}
+
+div.up-footer {
+    display: flex;
+
+    padding: 3rem 4rem;
+    background-color: var(--black);
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 4rem 0 0;
+}
+
+.links > h1 {
+    margin: 0 0 1.4rem 0;
+
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.links > a {
+    transition: .3s;
+    font-weight: 300;
+    text-decoration: none;
+    color: var(--white);
+}
+
+.links > a:hover {
+    color: var(--orange);
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+
+    width: 7rem;
+}
+
+.social > a > img {
+    width: 1.8rem;
+    transition: .4s;
+
+    border-radius: 6px;
+}
+
+.social > a > img:hover {
+    transform: scale(1.2);
+}
+
+.down-footer {
+    display: flex;
+    padding: 1.6rem 3rem;
+
+    border-top: solid 2px var(--orangeTrans);
+}
+
+.down-footer > img {
+    margin: 0 2.4rem 0 0;
+    width: 10rem;
+}
+
+.down-footer > div > a {
+    text-decoration: none;
+}
+
+#credits > p > span {
+    font-size: .9rem;
+    font-weight: 300;
+    color: var(--white);
+}
+
+#credits > p > a {
+    transition: .2s;
+    text-decoration: none;
+}
+
+#credits > p > a:hover {
+    color: var(--orange);
+}

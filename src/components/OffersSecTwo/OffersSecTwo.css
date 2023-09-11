@@ -1,0 +1,28 @@
+@import "../../styles/colors.css";
+
+.offers-sec-two {
+    padding: 1.6rem;
+    margin: 1rem 0 1rem 0;
+
+    font-size: 1.8rem;
+}
+
+.offers-sec-two > h1::after {
+    width: 1.8rem;
+    height: .3rem;
+    margin: 0 0 0 .5rem;
+    content: "";
+    position: absolute;
+    translate: 0 2.3rem;
+    
+    background-color: var(--orange);
+}
+
+div.offers-two {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 3rem 0;
+    padding: 0 6rem;
+}
