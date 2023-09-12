@@ -5,7 +5,7 @@ function Header() {
     return (
       <header>
         <div className="header-up">
-            <img src={Harley} alt="Harley-Davidson logo" />
+            <img src={Harley} alt="Harley-Davidson logo" id="logo" />
             <div className="up-nav">
                 <a href="#">WhatsApp</a>
                 <a href="#">Localização</a>

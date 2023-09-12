@@ -67,3 +67,27 @@ nav > a {
 nav > a:hover {
     color: var(--orange);
 }
+
+@media screen and (max-width: 768px) {
+
+    .header-up {
+        align-items: space-between;
+
+        padding: 1.5rem .8rem;
+        width: 100%;
+
+        border-bottom: solid 2px var(--orange);
+    }
+
+    #logo {
+        width: 8rem;
+    }
+
+    .up-nav {
+        display: none;
+    }
+
+    nav {
+        display: none;
+    }
+}
