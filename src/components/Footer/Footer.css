@@ -91,3 +91,26 @@ div.up-footer {
 #credits > p > a:hover {
     color: var(--orange);
 }
+
+@media screen and (max-width: 768px) {
+    
+    div.up-footer {
+        flex-direction: column;
+        padding: 1.5rem 3.8rem;
+    }
+    
+    .links {
+        margin: 1.5rem 0 1.5rem 0;
+    }
+
+    .down-footer {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .down-footer > img {
+        align-self: center;
+        margin: 1rem 0 1rem 0;
+        width: 12rem;
+    }
+}

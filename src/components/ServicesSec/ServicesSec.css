@@ -31,3 +31,20 @@
 
     margin: 2rem 0;
 }
+
+@media screen and (max-width: 768px) {
+   
+    .services-sec {
+        padding: 1.6rem;
+    
+        background-color: var(--black);
+    
+        color: rgb(241, 241, 241);
+    }
+    
+    .services-links {
+        flex-direction: column;
+    
+        margin: 1rem 0;
+    }
+}

@@ -29,28 +29,20 @@
 @media screen and (max-width: 768px) {
 
     .offers-sec {
-        padding: 1.6rem;
-        margin: 1rem 0 1rem 0;
-    
-        font-size: 1.8rem;
+        padding: 1rem;
+        margin: 0;
+        font-size: 1.4rem;
     }
     
     .offers-sec > h1::after {
-        width: 1.8rem;
-        height: .3rem;
-        margin: 0 0 0 .5rem;
-        content: "";
-        position: absolute;
-        translate: 0 2.3rem;
-        
-        background-color: var(--orange);
+        width: 1.4rem;
+        translate: 0 1.7rem;
     }
     
     .offers {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+        justify-content: center;
+        flex-direction: column;
     
-        margin: 2rem 0rem;
+        margin: 1rem 0rem;
     }
 }
