@@ -40,9 +40,9 @@ function Footer() {
                 <div className="down-footer">
                     <img src={Harley} alt="Logo Harley-Davidoson" />
                     <div id="credits">
-                        <p>Site desenvolvido por: <a href="https://github.com/DevDaniloSouza" target="_blank">DevDaniloSouza</a></p>
-                        <p>Inspirado na: <a href="https://theoneharley-davidson.com.br/">The One Harley-Davidson</a> - <span>©Todos os direitos reservados.</span></p>
-                        <p>Acesse meu Portfólio: <a href="https://devdanilosouza.github.io/Portfolio/">devdanilosouza.github.io/Projetos/</a></p>
+                        <p>Site desenvolvido por: <a  href="https://github.com/DevDaniloSouza" target="_blank">DevDaniloSouza</a></p>
+                        <p>Inspirado na: <a target="_blank" href="https://theoneharley-davidson.com.br/">The One Harley-Davidson</a> - <span>©Todos os direitos reservados.</span></p>
+                        <p>Acesse meu Portfólio: <a target="_blank" href="https://devdanilosouza.github.io/Portfolio/">devdanilosouza.github.io/Projetos/</a></p>
                     </div>
                 </div>
             </div>
