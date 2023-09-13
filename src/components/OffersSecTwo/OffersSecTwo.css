@@ -27,7 +27,7 @@ div.offers-two {
     padding: 0 6rem;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     
     .offers-sec-two {
         padding: 1.4rem;
@@ -36,6 +36,16 @@ div.offers-two {
     div.offers-two {
         flex-direction: column;
     
+        margin: 2rem 0;
+        padding: 0rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1020px) {
+    div.offers-two {
+        flex-wrap: wrap;
+        justify-content: center;
+
         margin: 2rem 0;
         padding: 0rem;
     }

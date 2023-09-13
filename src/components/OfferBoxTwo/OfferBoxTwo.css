@@ -2,6 +2,7 @@
 
 div.offer-two {
     width: 25vw;
+    min-height: 24rem;
     padding: 1rem;
 
     background-color: white;
@@ -28,10 +29,19 @@ div.offer-two > p {
     margin: 0 0 1.4rem 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     
     div.offer-two {
         width: 80vw;
         margin: 1rem 0;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1020px) {
+    
+    div.offer-two {
+        width: 40vw;
+        margin: 1rem;
+        padding: 1rem;
     }
 }
