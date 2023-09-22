@@ -1,7 +1,11 @@
 @import "../../styles/colors.css";
 
+.bike-banner {
+    background-size: cover;
+    height: 35rem;
+}
+
 h1.motorcycle {
-    position: absolute;
     padding: 2.5rem 0 0 4rem;
 
     font-size: 3.8rem;
