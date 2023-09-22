@@ -12,7 +12,7 @@ function FatBob() {
     return(
         <>
             <Header />
-            <BikeBannerSec imagem="../../public/fat-bob-desktop.jpg"/>
+            <BikeBannerSec image={Banner}/>
             <BikePresentation 
                 motorcycle="Fat Bob ® 114"
                 text="Desperte seu espírito de liberdade com a Fat Bob 114: potência e estilo em uma só máquina!"
