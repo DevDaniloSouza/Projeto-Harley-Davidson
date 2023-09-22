@@ -1,0 +1,47 @@
+@import "../../styles/colors.css";
+
+.presentation-sec {
+    display: flex;
+    justify-content: space-around;
+
+    padding: 4rem;
+
+    background-color: var(--black);
+}
+
+div.presentation {
+    width: 30rem;
+    padding: 1rem;
+
+    color: var(--white);
+}
+
+div.presentation > h1 {
+    margin: 0 0 2.6rem 0;
+    font-size: 2.2rem;
+}
+
+div.presentation > h1::after {
+    width: 1.6rem;
+    height: .3rem;
+    margin: 0 0 0 .5rem;
+    content: "";
+    position: absolute;
+    translate: 0 1.4rem;
+    
+    background-color: var(--orange);
+}
+
+div.presentation > p {
+    margin: 0 0 2rem 0;
+}
+
+div.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 25rem;
+}
+
+.presentation-sec > img {
+    width: 38rem;
+}
