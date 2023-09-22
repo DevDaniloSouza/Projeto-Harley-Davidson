@@ -34,6 +34,7 @@ div.presentation > h1::after {
 
 div.presentation > p {
     margin: 0 0 2rem 0;
+    font-weight: 300;
 }
 
 div.buttons {

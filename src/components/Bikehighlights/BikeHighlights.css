@@ -1,0 +1,59 @@
+@import "../../styles/colors.css";
+
+.highlights-sec {
+    display: flex;
+    flex-direction: column;
+
+    padding: 4rem 4rem;
+
+    background-color: var(--Black);
+
+    color: var(--white);
+}
+
+.highlights-sec > h1 {
+    align-self: flex-start;
+
+    margin: 0 0 1rem;
+
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.highlights-sec > h1::after {
+    width: 2rem;
+    height: .4rem;
+    margin: 0 0 0 .5rem;
+    content: "";
+    position: absolute;
+    translate: 0 2.3rem;
+    
+    background-color: var(--orange);
+}
+
+.highlight {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    margin: 2rem 0;
+}
+
+.highlight > img {
+    width: 35rem;
+}
+
+.highlight > .content {
+    width: 35rem;
+}
+
+.highlight > .content > h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0 0 2.5rem;
+}
+
+.highlight > .content > p {
+    margin: 0 0 1.5rem 0;
+    font-weight: 300;
+}
