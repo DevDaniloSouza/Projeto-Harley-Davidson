@@ -63,14 +63,14 @@ div.up-footer {
 
 .down-footer {
     display: flex;
-    padding: 1.6rem 3rem;
+    padding: 1.2rem 3rem;
 
     border-top: solid 2px var(--orangeTrans);
 }
 
-.down-footer > img {
+.footer-image {
     margin: 0 2.4rem 0 0;
-    width: 10rem;
+    width: 11rem;
 }
 
 .down-footer > div > a {
@@ -108,9 +108,10 @@ div.up-footer {
         text-align: center;
     }
     
-    .down-footer > img {
+    .footer-image {
+        width: 12rem;
+        height: 2rem;
         align-self: center;
         margin: 1rem 0 1rem 0;
-        width: 12rem;
     }
 }

@@ -17,12 +17,12 @@ header {
     align-items: center;
     justify-content: space-between;
     
-    padding: .7rem 0;
+    padding: .5rem 0;
     width: 80%;
 }
 
-.header-up > img {
-    width: 10rem;
+.header-image {
+    width: 11rem;
 }
 
 .up-nav {

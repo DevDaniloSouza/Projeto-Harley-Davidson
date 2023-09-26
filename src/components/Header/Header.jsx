@@ -1,11 +1,12 @@
 import "./Header.css"
+import { Link } from "react-router-dom"
 import Harley from "../../../public/harley-davidson.png"
 
 function Header() {
     return (
       <header>
         <div className="header-up">
-            <img src={Harley} alt="Harley-Davidson logo" id="logo" />
+            <Link to="/"><img className="header-image" src={Harley} alt="Harley-Davidson logo" id="logo" /></Link>
             <div className="up-nav">
                 <a href="#">WhatsApp</a>
                 <a href="#">Localização</a>

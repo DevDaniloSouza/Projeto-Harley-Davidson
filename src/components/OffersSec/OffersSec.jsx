@@ -14,16 +14,19 @@ function OfferSec() {
                     motorcycle="Low Rider ® S"
                     image={LowRider}
                     alt="Modelo Low Rider S"
+                    link="/low-rider-s"
                 />
                 <OfferBox 
                     motorcycle="Sportster™ S 2023"
                     image={Sportster}
                     alt="Sportster S 2023"
+                    link="/sportster-s"
                 />
                 <OfferBox 
                     motorcycle="Road King ® Special"
                     image={RoadKing}
                     alt="Road King Special"
+                    link="/road-king-special"
                 />
                 <OfferBox 
                     motorcycle="Fat Bob ® 114"

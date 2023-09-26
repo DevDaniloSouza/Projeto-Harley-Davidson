@@ -3,6 +3,7 @@ import GitHub from "../../../public/github.png"
 import Linkedin from "../../../public/linkedin.jpeg"
 import Instagram from "../../../public/instagram.png"
 import Harley from "../../../public/harley-davidson.png"
+import { Link } from "react-router-dom"
 
 function Footer() {
     return (
@@ -38,7 +39,7 @@ function Footer() {
             </div>
             <div>
                 <div className="down-footer">
-                    <img src={Harley} alt="Logo Harley-Davidoson" />
+                    <Link to="/"><img className="footer-image" src={Harley} alt="Logo Harley-Davidoson" /></Link>
                     <div id="credits">
                         <p>Site desenvolvido por: <a  href="https://github.com/DevDaniloSouza" target="_blank">DevDaniloSouza</a></p>
                         <p>Inspirado na: <a target="_blank" href="https://theoneharley-davidson.com.br/">The One Harley-Davidson</a> - <span>©Todos os direitos reservados.</span></p>

@@ -7,12 +7,13 @@ import FatBobImg from "../../public/fat-bob-parallax.jpg"
 import BikeHighlights from "../components/Bikehighlights/BikeHighlights"
 import Bike01 from "../../public/fat-bob-garfo.jpg"
 import Bike02 from "../../public/fat-bob-led.webp"
+import BikeSpecSec from "../components/BikeSpecSec/BikeSpecSec"
 
 function FatBob() {
     return(
         <>
             <Header />
-            <BikeBannerSec image={Banner}/>
+            <BikeBannerSec image={Banner} bike="Fat Bob 114™" />
             <BikePresentation 
                 motorcycle="Fat Bob ® 114"
                 text="Desperte seu espírito de liberdade com a Fat Bob 114: potência e estilo em uma só máquina!"
