@@ -57,3 +57,33 @@
     margin: 0 0 1.5rem 0;
     font-weight: 300;
 }
+
+@media screen and (max-width: 480px) {
+    
+    .highlights-sec {
+        padding: 2.4rem 1.2rem;
+    }
+    
+    .highlight {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .highlight > img {
+        margin: 0 0 2rem 0;
+        width: 100%;
+    }
+    
+    .highlight > .content {
+        width: 100%;
+    }
+    
+    .highlight > .content > h2 {
+        font-size: 1.6rem;
+        margin: 0 0 2.2rem;
+    }
+
+    #invert {
+        flex-direction: column-reverse;
+    }
+}

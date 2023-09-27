@@ -7,8 +7,8 @@ function BikePresentation(props) {
                 <h1>{props.motorcycle}</h1>
                 <p>{props.text}</p>
                 <div className="buttons">
-                    <button style={{width:"12rem"}}>Peça a sua</button>
-                    <button style={{width:"12rem"}}>Test Ride</button>
+                    <button className="btn-present">Peça a sua</button>
+                    <button className="btn-present">Test Ride</button>
                 </div>
             </div>
             <img src={props.image} alt="Motocicleta" />
