@@ -73,14 +73,14 @@ nav > a:hover {
     .header-up {
         align-items: space-between;
 
-        padding: 1.5rem .8rem;
+        padding: 1rem .8rem;
         width: 100%;
 
         border-bottom: solid 2px var(--orange);
     }
 
     #logo {
-        width: 8rem;
+        width: 9rem;
     }
 
     .up-nav {

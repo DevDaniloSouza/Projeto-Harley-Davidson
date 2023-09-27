@@ -12,7 +12,7 @@ function BikeHighlights(props) {
                     <button style={{width:"15rem"}}>Estou interessado!</button>
                 </div>
             </div>
-            <div className="highlight">
+            <div className="highlight" id="invert">
                 <div className="content">
                     <h2>{props.title02}</h2>
                     <p>{props.text02}</p>
