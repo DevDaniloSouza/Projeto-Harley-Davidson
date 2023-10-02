@@ -43,6 +43,10 @@ div.buttons {
     width: 25rem;
 }
 
+.btn-present {
+    width: 48%;
+}
+
 .presentation-sec > img {
     width: 34rem;
 }
